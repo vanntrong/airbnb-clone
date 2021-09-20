@@ -157,3 +157,74 @@
 .header__user-avatar {
   width: 32px;
 }
+
+.header__search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 850px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 35px;
+}
+
+.header__search-place {
+  flex-grow: 2;
+  padding: 16px 24px;
+  height: 100%;
+}
+
+.header__search-text {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.header__search-input {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  font-size: 1.4rem;
+  outline: none;
+}
+
+.header__search-room {
+  flex-grow: 1;
+  height: 100%;
+  padding: 16px 24px;
+}
+
+.header__add-date {
+  font-size: 1.3rem;
+  color: var(--text-color);
+}
+
+.header__search-guest {
+  height: 100%;
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__search-wrapper {
+  padding: 16px 24px;
+}
+
+.header-guest-search {
+  background-color: #ff385c;
+  color: #fff;
+  width: 48px;
+  height: 48px;
+  border-radius: 40px;
+  padding: 16px 24px;
+  margin-right: 8px;
+}
+
+.header-guest-search span {
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
