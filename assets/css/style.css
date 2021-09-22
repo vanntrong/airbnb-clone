@@ -288,6 +288,7 @@
   left: 50%;
   transform: translateX(-50%);
   display: inline-block;
+  cursor: pointer;
 }
 .header__title-text {
   font-size: 1.8rem;
@@ -300,7 +301,7 @@
   height: 60px;
   background-color: #fff;
   border-radius: 40px;
-  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  box-shadow: 4px 4px 10px rgb(0 0 0 / 10%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -314,4 +315,123 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.banner {
+  margin-top: 40px;
+  padding: 0 80px;
+}
+
+.banner__heading {
+  margin-bottom: 35px;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.banner__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner__item {
+  margin-right: 18px;
+  cursor: pointer;
+}
+
+.banner__item-img {
+  width: 330px;
+  border-radius: 8px;
+}
+
+.banner__item-text {
+  margin-top: 10px;
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.container {
+  padding: 0 80px;
+}
+
+.container__top {
+  margin-top: 75px;
+  height: 480px;
+  background: url("../images/container/container__background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.container__top-title {
+  width: 365px;
+  height: 245px;
+  margin-top: 120px;
+  margin-left: 80px;
+  color: #fff;
+}
+
+.container-title-heading {
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.container-title-text {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.container-title-btn {
+  margin-top: 45px;
+  width: 160px;
+  height: 50px;
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.container__bottom {
+  margin-top: 70px;
+}
+
+.container__bottom-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.container__bottom-list {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.container__bottom-item {
+  margin-right: 18px;
+}
+
+.container__item-img {
+  width: 440px;
+  border-radius: 8px;
+}
+
+.container__item-heading {
+  margin-top: 10px;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.container__item-text {
+  margin-top: 6px;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
 }
