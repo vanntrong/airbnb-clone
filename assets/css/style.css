@@ -435,3 +435,34 @@
   font-size: 1.5rem;
   line-height: 1.8rem;
 }
+
+.footer {
+  padding: 0 80px;
+  margin-top: 75px;
+  background-color: #f7f7f7;
+  border-top: 1px solid #ccc;
+}
+.footer__top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-top: 1px solid #ccc;
+}
+.footer__top-list {
+  margin-top: 50px;
+}
+.footer__top-list span {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.footer__top-item {
+  margin-top: 18px;
+}
+.footer__item-link {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #000;
+}
+.footer__item-link:hover {
+  text-decoration: underline;
+}
