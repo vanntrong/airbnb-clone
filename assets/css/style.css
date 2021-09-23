@@ -446,10 +446,10 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
 .footer__top-list {
-  margin-top: 50px;
+  margin: 50px 0;
 }
 .footer__top-list span {
   font-size: 1.4rem;
@@ -465,4 +465,106 @@
 }
 .footer__item-link:hover {
   text-decoration: underline;
+}
+.footer__bottom {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+.footer__bottom-left {
+  display: flex;
+  align-items: flex-start;
+}
+.footer__copyright {
+  display: flex;
+  align-items: center;
+}
+.footer__copyright-icon {
+  font-size: 1.4rem;
+}
+.footer__copyright-text {
+  font-size: 1.4rem;
+  margin-left: 4px;
+}
+.footer__rules {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__rule {
+  font-size: 1.4rem;
+  margin-left: 15px;
+  position: relative;
+  cursor: pointer;
+}
+.footer__rule:hover {
+  text-decoration: underline;
+}
+.footer__rule::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: #000;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -7px;
+}
+.footer__bottom-right {
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.footer__language {
+  display: flex;
+  align-items: center;
+}
+.footer__language:hover {
+  opacity: 0.9;
+}
+.footer__language-icon {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.footer__language-text {
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-decoration: underline;
+  margin-left: 4px;
+}
+.footer__currency {
+  display: flex;
+  align-items: center;
+}
+.footer__currency:hover {
+  opacity: 0.9;
+}
+.footer__currency-icon {
+  font-size: 1.6rem;
+  margin-left: 16px;
+  font-weight: 300;
+}
+.footer__currency-text {
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-decoration: underline;
+  margin-left: 4px;
+}
+.footer__link {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+.footer__link-icon {
+  font-size: 2rem;
+  margin: 0 18px;
+}
+.footer__link-icon:last-child {
+  margin-right: unset;
+}
+.footer__link:hover {
+  opacity: 0.9;
 }
